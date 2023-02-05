@@ -19,11 +19,11 @@ namespace SendMQTT
             await client.ConnectAsync(options, CancellationToken.None);
             if (client.IsConnected)
             {
-                Console.WriteLine("Пользователь подключен");
+                Console.WriteLine("Сlient connected");
             }
             else
             {
-                Console.WriteLine("Пользователь не подключен");
+                Console.WriteLine("Client disabled");
             }
             Random rand = new Random();
             int wave = 0;//create beautiful graph
@@ -51,7 +51,7 @@ namespace SendMQTT
                      .Build();
                 await client.PublishAsync(message, CancellationToken.None);
                 Thread.Sleep(500);
-                Console.WriteLine($"Класс {i} отправлен");
+                Console.WriteLine($"Class {i} sent");
             }
         }
         class Data
