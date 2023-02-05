@@ -292,11 +292,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sasha\\Desktop\\SendMQTT\\GetMQTT\\GetMQTT.csproj",
+      "projectUniqueName": "C:\\GitHub\\Data-monitoring-with-MQTT-ElasticSearch-Grafana\\SendMQTT\\GetMQTT\\GetMQTT.csproj",
       "projectName": "GetMQTT",
-      "projectPath": "C:\\Users\\Sasha\\Desktop\\SendMQTT\\GetMQTT\\GetMQTT.csproj",
+      "projectPath": "C:\\GitHub\\Data-monitoring-with-MQTT-ElasticSearch-Grafana\\SendMQTT\\GetMQTT\\GetMQTT.csproj",
       "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sasha\\Desktop\\SendMQTT\\GetMQTT\\obj\\",
+      "outputPath": "C:\\GitHub\\Data-monitoring-with-MQTT-ElasticSearch-Grafana\\SendMQTT\\GetMQTT\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",

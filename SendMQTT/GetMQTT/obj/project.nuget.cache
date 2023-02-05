@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n/fQ5fDvWuq3sOAmxqcMRs81SC5vLVXMtKRcUo8dRcB0ITBLYxPYiftzWe1dnrm3DuoUioGkA9j5BQ+EIZkXLw==",
+  "dgSpecHash": "jO39pMJvYbyallSerY6sXsuX39ElQyikaqBMAfAHfSg/xSLwJpVm8PFv0HKL6VGuXKm7CvMjFLTvKVSkNMWldw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sasha\\Desktop\\SendMQTT\\GetMQTT\\GetMQTT.csproj",
+  "projectFilePath": "C:\\GitHub\\Data-monitoring-with-MQTT-ElasticSearch-Grafana\\SendMQTT\\GetMQTT\\GetMQTT.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sasha\\.nuget\\packages\\elasticsearch.net\\7.17.5\\elasticsearch.net.7.17.5.nupkg.sha512",
     "C:\\Users\\Sasha\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",
