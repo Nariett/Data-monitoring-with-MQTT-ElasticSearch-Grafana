@@ -16,3 +16,6 @@ C:\Users\Sasha\Desktop\CRUD ElasticSearch\CRUD\obj\Debug\net6.0\refint\CRUD.dll
 C:\Users\Sasha\Desktop\CRUD ElasticSearch\CRUD\obj\Debug\net6.0\CRUD.pdb
 C:\Users\Sasha\Desktop\CRUD ElasticSearch\CRUD\obj\Debug\net6.0\CRUD.genruntimeconfig.cache
 C:\Users\Sasha\Desktop\CRUD ElasticSearch\CRUD\obj\Debug\net6.0\ref\CRUD.dll
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\CRUD ElasticSearch\CRUD\obj\Debug\net6.0\CRUD.dll
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\CRUD ElasticSearch\CRUD\obj\Debug\net6.0\refint\CRUD.dll
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\CRUD ElasticSearch\CRUD\obj\Debug\net6.0\CRUD.pdb

@@ -1,0 +1,95 @@
+C:\Users\orpo\Desktop\VScanner\Subscriber\bin\Debug\net6.0\Subscriber.exe
+C:\Users\orpo\Desktop\VScanner\Subscriber\bin\Debug\net6.0\Subscriber.deps.json
+C:\Users\orpo\Desktop\VScanner\Subscriber\bin\Debug\net6.0\Subscriber.runtimeconfig.json
+C:\Users\orpo\Desktop\VScanner\Subscriber\bin\Debug\net6.0\Subscriber.dll
+C:\Users\orpo\Desktop\VScanner\Subscriber\bin\Debug\net6.0\Subscriber.pdb
+C:\Users\orpo\Desktop\VScanner\Subscriber\bin\Debug\net6.0\Elasticsearch.Net.dll
+C:\Users\orpo\Desktop\VScanner\Subscriber\bin\Debug\net6.0\MQTTnet.dll
+C:\Users\orpo\Desktop\VScanner\Subscriber\bin\Debug\net6.0\Nest.dll
+C:\Users\orpo\Desktop\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.csproj.AssemblyReference.cache
+C:\Users\orpo\Desktop\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\orpo\Desktop\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.AssemblyInfoInputs.cache
+C:\Users\orpo\Desktop\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.AssemblyInfo.cs
+C:\Users\orpo\Desktop\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.csproj.CoreCompileInputs.cache
+C:\Users\orpo\Desktop\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.csproj.CopyComplete
+C:\Users\orpo\Desktop\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.dll
+C:\Users\orpo\Desktop\VScanner\Subscriber\obj\Debug\net6.0\refint\Subscriber.dll
+C:\Users\orpo\Desktop\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.pdb
+C:\Users\orpo\Desktop\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.genruntimeconfig.cache
+C:\Users\orpo\Desktop\VScanner\Subscriber\obj\Debug\net6.0\ref\Subscriber.dll
+C:\Users\Sasha\Desktop\VScanner\Subscriber\bin\Debug\net6.0\Subscriber.exe
+C:\Users\Sasha\Desktop\VScanner\Subscriber\bin\Debug\net6.0\Subscriber.deps.json
+C:\Users\Sasha\Desktop\VScanner\Subscriber\bin\Debug\net6.0\Subscriber.runtimeconfig.json
+C:\Users\Sasha\Desktop\VScanner\Subscriber\bin\Debug\net6.0\Subscriber.dll
+C:\Users\Sasha\Desktop\VScanner\Subscriber\bin\Debug\net6.0\Subscriber.pdb
+C:\Users\Sasha\Desktop\VScanner\Subscriber\bin\Debug\net6.0\Elasticsearch.Net.dll
+C:\Users\Sasha\Desktop\VScanner\Subscriber\bin\Debug\net6.0\MQTTnet.dll
+C:\Users\Sasha\Desktop\VScanner\Subscriber\bin\Debug\net6.0\Nest.dll
+C:\Users\Sasha\Desktop\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.csproj.AssemblyReference.cache
+C:\Users\Sasha\Desktop\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sasha\Desktop\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.AssemblyInfoInputs.cache
+C:\Users\Sasha\Desktop\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.AssemblyInfo.cs
+C:\Users\Sasha\Desktop\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.csproj.CoreCompileInputs.cache
+C:\Users\Sasha\Desktop\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.csproj.CopyComplete
+C:\Users\Sasha\Desktop\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.dll
+C:\Users\Sasha\Desktop\VScanner\Subscriber\obj\Debug\net6.0\refint\Subscriber.dll
+C:\Users\Sasha\Desktop\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.pdb
+C:\Users\Sasha\Desktop\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.genruntimeconfig.cache
+C:\Users\Sasha\Desktop\VScanner\Subscriber\obj\Debug\net6.0\ref\Subscriber.dll
+C:\Users\orpo\Desktop\New folder\VScanner\Subscriber\bin\Debug\net6.0\Subscriber.exe
+C:\Users\orpo\Desktop\New folder\VScanner\Subscriber\bin\Debug\net6.0\Subscriber.deps.json
+C:\Users\orpo\Desktop\New folder\VScanner\Subscriber\bin\Debug\net6.0\Subscriber.runtimeconfig.json
+C:\Users\orpo\Desktop\New folder\VScanner\Subscriber\bin\Debug\net6.0\Subscriber.dll
+C:\Users\orpo\Desktop\New folder\VScanner\Subscriber\bin\Debug\net6.0\Subscriber.pdb
+C:\Users\orpo\Desktop\New folder\VScanner\Subscriber\bin\Debug\net6.0\Elasticsearch.Net.dll
+C:\Users\orpo\Desktop\New folder\VScanner\Subscriber\bin\Debug\net6.0\MQTTnet.dll
+C:\Users\orpo\Desktop\New folder\VScanner\Subscriber\bin\Debug\net6.0\Nest.dll
+C:\Users\orpo\Desktop\New folder\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.csproj.AssemblyReference.cache
+C:\Users\orpo\Desktop\New folder\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\orpo\Desktop\New folder\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.AssemblyInfoInputs.cache
+C:\Users\orpo\Desktop\New folder\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.AssemblyInfo.cs
+C:\Users\orpo\Desktop\New folder\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.csproj.CoreCompileInputs.cache
+C:\Users\orpo\Desktop\New folder\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.csproj.CopyComplete
+C:\Users\orpo\Desktop\New folder\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.dll
+C:\Users\orpo\Desktop\New folder\VScanner\Subscriber\obj\Debug\net6.0\refint\Subscriber.dll
+C:\Users\orpo\Desktop\New folder\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.pdb
+C:\Users\orpo\Desktop\New folder\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.genruntimeconfig.cache
+C:\Users\orpo\Desktop\New folder\VScanner\Subscriber\obj\Debug\net6.0\ref\Subscriber.dll
+F:\Adani\TodayWork\VScanner\Subscriber\bin\Debug\net6.0\Subscriber.exe
+F:\Adani\TodayWork\VScanner\Subscriber\bin\Debug\net6.0\Subscriber.deps.json
+F:\Adani\TodayWork\VScanner\Subscriber\bin\Debug\net6.0\Subscriber.runtimeconfig.json
+F:\Adani\TodayWork\VScanner\Subscriber\bin\Debug\net6.0\Subscriber.dll
+F:\Adani\TodayWork\VScanner\Subscriber\bin\Debug\net6.0\Subscriber.pdb
+F:\Adani\TodayWork\VScanner\Subscriber\bin\Debug\net6.0\Elasticsearch.Net.dll
+F:\Adani\TodayWork\VScanner\Subscriber\bin\Debug\net6.0\MQTTnet.dll
+F:\Adani\TodayWork\VScanner\Subscriber\bin\Debug\net6.0\Nest.dll
+F:\Adani\TodayWork\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.csproj.AssemblyReference.cache
+F:\Adani\TodayWork\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.GeneratedMSBuildEditorConfig.editorconfig
+F:\Adani\TodayWork\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.AssemblyInfoInputs.cache
+F:\Adani\TodayWork\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.AssemblyInfo.cs
+F:\Adani\TodayWork\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.csproj.CoreCompileInputs.cache
+F:\Adani\TodayWork\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.csproj.CopyComplete
+F:\Adani\TodayWork\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.dll
+F:\Adani\TodayWork\VScanner\Subscriber\obj\Debug\net6.0\refint\Subscriber.dll
+F:\Adani\TodayWork\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.pdb
+F:\Adani\TodayWork\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.genruntimeconfig.cache
+F:\Adani\TodayWork\VScanner\Subscriber\obj\Debug\net6.0\ref\Subscriber.dll
+C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Subscriber\bin\Debug\net6.0\Subscriber.exe
+C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Subscriber\bin\Debug\net6.0\Subscriber.deps.json
+C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Subscriber\bin\Debug\net6.0\Subscriber.runtimeconfig.json
+C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Subscriber\bin\Debug\net6.0\Subscriber.dll
+C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Subscriber\bin\Debug\net6.0\Subscriber.pdb
+C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Subscriber\bin\Debug\net6.0\Elasticsearch.Net.dll
+C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Subscriber\bin\Debug\net6.0\MQTTnet.dll
+C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Subscriber\bin\Debug\net6.0\Nest.dll
+C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.csproj.AssemblyReference.cache
+C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.AssemblyInfoInputs.cache
+C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.AssemblyInfo.cs
+C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.csproj.CoreCompileInputs.cache
+C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.csproj.CopyComplete
+C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.dll
+C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Subscriber\obj\Debug\net6.0\refint\Subscriber.dll
+C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.pdb
+C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.genruntimeconfig.cache
+C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Subscriber\obj\Debug\net6.0\ref\Subscriber.dll

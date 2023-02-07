@@ -9,7 +9,7 @@ namespace CRUD
             int c = 0;
             var setting = new ConnectionSettings(new Uri("http://localhost:9200/"));
             var client = new ElasticClient(setting);
-            while (c == 1)
+            while (c == 0)
             {
                 Console.WriteLine("Select item:\n1 - Create index\n2 - Read index\n3 - Update index\n4 - Delete index\n5 - Exit");
                 int select = Convert.ToInt32(Console.ReadLine());

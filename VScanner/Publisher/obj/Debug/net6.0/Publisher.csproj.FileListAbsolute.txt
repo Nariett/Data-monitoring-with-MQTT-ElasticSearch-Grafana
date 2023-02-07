@@ -1,0 +1,95 @@
+C:\Users\orpo\Desktop\VScanner\Publisher\obj\Debug\net6.0\Publisher.csproj.AssemblyReference.cache
+C:\Users\orpo\Desktop\VScanner\Publisher\obj\Debug\net6.0\Publisher.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\orpo\Desktop\VScanner\Publisher\obj\Debug\net6.0\Publisher.AssemblyInfoInputs.cache
+C:\Users\orpo\Desktop\VScanner\Publisher\obj\Debug\net6.0\Publisher.AssemblyInfo.cs
+C:\Users\orpo\Desktop\VScanner\Publisher\obj\Debug\net6.0\Publisher.csproj.CoreCompileInputs.cache
+C:\Users\orpo\Desktop\VScanner\Publisher\bin\Debug\net6.0\Publisher.exe
+C:\Users\orpo\Desktop\VScanner\Publisher\bin\Debug\net6.0\Publisher.deps.json
+C:\Users\orpo\Desktop\VScanner\Publisher\bin\Debug\net6.0\Publisher.runtimeconfig.json
+C:\Users\orpo\Desktop\VScanner\Publisher\bin\Debug\net6.0\Publisher.dll
+C:\Users\orpo\Desktop\VScanner\Publisher\bin\Debug\net6.0\Publisher.pdb
+C:\Users\orpo\Desktop\VScanner\Publisher\bin\Debug\net6.0\Elasticsearch.Net.dll
+C:\Users\orpo\Desktop\VScanner\Publisher\bin\Debug\net6.0\Nest.dll
+C:\Users\orpo\Desktop\VScanner\Publisher\obj\Debug\net6.0\Publisher.csproj.CopyComplete
+C:\Users\orpo\Desktop\VScanner\Publisher\obj\Debug\net6.0\Publisher.dll
+C:\Users\orpo\Desktop\VScanner\Publisher\obj\Debug\net6.0\refint\Publisher.dll
+C:\Users\orpo\Desktop\VScanner\Publisher\obj\Debug\net6.0\Publisher.pdb
+C:\Users\orpo\Desktop\VScanner\Publisher\obj\Debug\net6.0\Publisher.genruntimeconfig.cache
+C:\Users\orpo\Desktop\VScanner\Publisher\obj\Debug\net6.0\ref\Publisher.dll
+C:\Users\orpo\Desktop\VScanner\Publisher\bin\Debug\net6.0\MQTTnet.dll
+C:\Users\Sasha\Desktop\VScanner\Publisher\bin\Debug\net6.0\Publisher.exe
+C:\Users\Sasha\Desktop\VScanner\Publisher\bin\Debug\net6.0\Publisher.deps.json
+C:\Users\Sasha\Desktop\VScanner\Publisher\bin\Debug\net6.0\Publisher.runtimeconfig.json
+C:\Users\Sasha\Desktop\VScanner\Publisher\bin\Debug\net6.0\Publisher.dll
+C:\Users\Sasha\Desktop\VScanner\Publisher\bin\Debug\net6.0\Publisher.pdb
+C:\Users\Sasha\Desktop\VScanner\Publisher\bin\Debug\net6.0\Elasticsearch.Net.dll
+C:\Users\Sasha\Desktop\VScanner\Publisher\bin\Debug\net6.0\MQTTnet.dll
+C:\Users\Sasha\Desktop\VScanner\Publisher\bin\Debug\net6.0\Nest.dll
+C:\Users\Sasha\Desktop\VScanner\Publisher\obj\Debug\net6.0\Publisher.csproj.AssemblyReference.cache
+C:\Users\Sasha\Desktop\VScanner\Publisher\obj\Debug\net6.0\Publisher.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sasha\Desktop\VScanner\Publisher\obj\Debug\net6.0\Publisher.AssemblyInfoInputs.cache
+C:\Users\Sasha\Desktop\VScanner\Publisher\obj\Debug\net6.0\Publisher.AssemblyInfo.cs
+C:\Users\Sasha\Desktop\VScanner\Publisher\obj\Debug\net6.0\Publisher.csproj.CoreCompileInputs.cache
+C:\Users\Sasha\Desktop\VScanner\Publisher\obj\Debug\net6.0\Publisher.csproj.CopyComplete
+C:\Users\Sasha\Desktop\VScanner\Publisher\obj\Debug\net6.0\Publisher.dll
+C:\Users\Sasha\Desktop\VScanner\Publisher\obj\Debug\net6.0\refint\Publisher.dll
+C:\Users\Sasha\Desktop\VScanner\Publisher\obj\Debug\net6.0\Publisher.pdb
+C:\Users\Sasha\Desktop\VScanner\Publisher\obj\Debug\net6.0\Publisher.genruntimeconfig.cache
+C:\Users\Sasha\Desktop\VScanner\Publisher\obj\Debug\net6.0\ref\Publisher.dll
+C:\Users\orpo\Desktop\New folder\VScanner\Publisher\bin\Debug\net6.0\Publisher.exe
+C:\Users\orpo\Desktop\New folder\VScanner\Publisher\bin\Debug\net6.0\Publisher.deps.json
+C:\Users\orpo\Desktop\New folder\VScanner\Publisher\bin\Debug\net6.0\Publisher.runtimeconfig.json
+C:\Users\orpo\Desktop\New folder\VScanner\Publisher\bin\Debug\net6.0\Publisher.dll
+C:\Users\orpo\Desktop\New folder\VScanner\Publisher\bin\Debug\net6.0\Publisher.pdb
+C:\Users\orpo\Desktop\New folder\VScanner\Publisher\bin\Debug\net6.0\Elasticsearch.Net.dll
+C:\Users\orpo\Desktop\New folder\VScanner\Publisher\bin\Debug\net6.0\MQTTnet.dll
+C:\Users\orpo\Desktop\New folder\VScanner\Publisher\bin\Debug\net6.0\Nest.dll
+C:\Users\orpo\Desktop\New folder\VScanner\Publisher\obj\Debug\net6.0\Publisher.csproj.AssemblyReference.cache
+C:\Users\orpo\Desktop\New folder\VScanner\Publisher\obj\Debug\net6.0\Publisher.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\orpo\Desktop\New folder\VScanner\Publisher\obj\Debug\net6.0\Publisher.AssemblyInfoInputs.cache
+C:\Users\orpo\Desktop\New folder\VScanner\Publisher\obj\Debug\net6.0\Publisher.AssemblyInfo.cs
+C:\Users\orpo\Desktop\New folder\VScanner\Publisher\obj\Debug\net6.0\Publisher.csproj.CoreCompileInputs.cache
+C:\Users\orpo\Desktop\New folder\VScanner\Publisher\obj\Debug\net6.0\Publisher.csproj.CopyComplete
+C:\Users\orpo\Desktop\New folder\VScanner\Publisher\obj\Debug\net6.0\Publisher.dll
+C:\Users\orpo\Desktop\New folder\VScanner\Publisher\obj\Debug\net6.0\refint\Publisher.dll
+C:\Users\orpo\Desktop\New folder\VScanner\Publisher\obj\Debug\net6.0\Publisher.pdb
+C:\Users\orpo\Desktop\New folder\VScanner\Publisher\obj\Debug\net6.0\Publisher.genruntimeconfig.cache
+C:\Users\orpo\Desktop\New folder\VScanner\Publisher\obj\Debug\net6.0\ref\Publisher.dll
+F:\Adani\TodayWork\VScanner\Publisher\bin\Debug\net6.0\Publisher.exe
+F:\Adani\TodayWork\VScanner\Publisher\bin\Debug\net6.0\Publisher.deps.json
+F:\Adani\TodayWork\VScanner\Publisher\bin\Debug\net6.0\Publisher.runtimeconfig.json
+F:\Adani\TodayWork\VScanner\Publisher\bin\Debug\net6.0\Publisher.dll
+F:\Adani\TodayWork\VScanner\Publisher\bin\Debug\net6.0\Publisher.pdb
+F:\Adani\TodayWork\VScanner\Publisher\bin\Debug\net6.0\Elasticsearch.Net.dll
+F:\Adani\TodayWork\VScanner\Publisher\bin\Debug\net6.0\MQTTnet.dll
+F:\Adani\TodayWork\VScanner\Publisher\bin\Debug\net6.0\Nest.dll
+F:\Adani\TodayWork\VScanner\Publisher\obj\Debug\net6.0\Publisher.csproj.AssemblyReference.cache
+F:\Adani\TodayWork\VScanner\Publisher\obj\Debug\net6.0\Publisher.GeneratedMSBuildEditorConfig.editorconfig
+F:\Adani\TodayWork\VScanner\Publisher\obj\Debug\net6.0\Publisher.AssemblyInfoInputs.cache
+F:\Adani\TodayWork\VScanner\Publisher\obj\Debug\net6.0\Publisher.AssemblyInfo.cs
+F:\Adani\TodayWork\VScanner\Publisher\obj\Debug\net6.0\Publisher.csproj.CoreCompileInputs.cache
+F:\Adani\TodayWork\VScanner\Publisher\obj\Debug\net6.0\Publisher.csproj.CopyComplete
+F:\Adani\TodayWork\VScanner\Publisher\obj\Debug\net6.0\Publisher.dll
+F:\Adani\TodayWork\VScanner\Publisher\obj\Debug\net6.0\refint\Publisher.dll
+F:\Adani\TodayWork\VScanner\Publisher\obj\Debug\net6.0\Publisher.pdb
+F:\Adani\TodayWork\VScanner\Publisher\obj\Debug\net6.0\Publisher.genruntimeconfig.cache
+F:\Adani\TodayWork\VScanner\Publisher\obj\Debug\net6.0\ref\Publisher.dll
+C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Publisher\bin\Debug\net6.0\Publisher.exe
+C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Publisher\bin\Debug\net6.0\Publisher.deps.json
+C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Publisher\bin\Debug\net6.0\Publisher.runtimeconfig.json
+C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Publisher\bin\Debug\net6.0\Publisher.dll
+C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Publisher\bin\Debug\net6.0\Publisher.pdb
+C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Publisher\bin\Debug\net6.0\Elasticsearch.Net.dll
+C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Publisher\bin\Debug\net6.0\MQTTnet.dll
+C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Publisher\bin\Debug\net6.0\Nest.dll
+C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Publisher\obj\Debug\net6.0\Publisher.csproj.AssemblyReference.cache
+C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Publisher\obj\Debug\net6.0\Publisher.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Publisher\obj\Debug\net6.0\Publisher.AssemblyInfoInputs.cache
+C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Publisher\obj\Debug\net6.0\Publisher.AssemblyInfo.cs
+C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Publisher\obj\Debug\net6.0\Publisher.csproj.CoreCompileInputs.cache
+C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Publisher\obj\Debug\net6.0\Publisher.csproj.CopyComplete
+C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Publisher\obj\Debug\net6.0\Publisher.dll
+C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Publisher\obj\Debug\net6.0\refint\Publisher.dll
+C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Publisher\obj\Debug\net6.0\Publisher.pdb
+C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Publisher\obj\Debug\net6.0\Publisher.genruntimeconfig.cache
+C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Publisher\obj\Debug\net6.0\ref\Publisher.dll
