@@ -165,7 +165,7 @@ namespace Publisher
 
         static async public void SendData()
         {
-            for (int i = 0; ; i++)
+            while(true)
             {
                 var mqttFactory = new MqttFactory();
                 IMqttClient client = mqttFactory.CreateMqttClient();
@@ -237,7 +237,7 @@ namespace Publisher
             {
 
                 ConsoleKeyInfo key = Console.ReadKey(true);
-                for (int i = 0; ; i++)
+                while (true)
                 {
                     if (key.Key == ConsoleKey.F1) engineOne.Right();
                     else if (key.Key == ConsoleKey.F2) engineOne.Left();
@@ -267,7 +267,7 @@ namespace Publisher
         {
             await Task.Run(() =>
             {
-                for (int i = 0; ; i++)
+                while(true)
                 {
                     if (sensorOne.state == 1)
                     {
@@ -284,9 +284,10 @@ namespace Publisher
         {
             await Task.Run(() =>
             {
-                int x = 0;
-                for (int i = 0; ; i++)
+                int i = 0;
+                while(true)
                 {
+                    i++;
                     if (i == 4)
                     {
                         Console.WriteLine("Сенсор обнаружил обьект");
@@ -295,8 +296,6 @@ namespace Publisher
                     else Thread.Sleep(1000);
                     if (engineOne.position == 1 && sensorOne.state == 1 && detectorOne.result == 1)
                     {
-                        x++;
-                        Console.WriteLine();
                         //Console.WriteLine("Проводится сканирование");
                         Thread.Sleep(2000);
                         break;
@@ -332,16 +331,17 @@ namespace Publisher
             await Task.Delay(4000);
             return true;
         }
-        static public async void Scanning()
+        static public void Scanning()
         {
             Console.WriteLine("Проводится инициализация устройств");
             AllInit();
             Console.WriteLine("Устройства проинициализированы ");
-            engineOne.Stop();
             EngineStart();
             DetectorStart();
-            for (int i = 0; ; i++)
+            int i = 0;
+            while (true)
             {
+                i++;
                 if (i == 4)
                 {
                     Console.WriteLine("Сенсор обнаружил обьект");
