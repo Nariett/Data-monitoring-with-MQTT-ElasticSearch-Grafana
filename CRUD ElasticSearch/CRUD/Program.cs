@@ -1,5 +1,4 @@
 ﻿using Nest;
-
 namespace CRUD
 {
     class program
