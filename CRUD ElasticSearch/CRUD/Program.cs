@@ -10,7 +10,7 @@ namespace CRUD
             var client = new ElasticClient(setting);
             while (c == 0)
             {
-                Console.WriteLine("Select item:\n1 - Create index\n2 - Read index\n3 - Update index\n4 - Delete index\n5 - Exit");
+                Console.WriteLine("Select item:\n1 - Create index\n2 - Read index\n3 - Update index\n4 - Delete index\n5 - Exit ");
                 int select = Convert.ToInt32(Console.ReadLine());
                 switch (select)
                 {
