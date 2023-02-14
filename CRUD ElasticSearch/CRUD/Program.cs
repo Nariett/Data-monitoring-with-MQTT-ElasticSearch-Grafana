@@ -1,7 +1,7 @@
 ﻿using Nest;
 namespace CRUD
 {
-    class program
+    class Program//create/read/update/delete data in ElasticSearch
     {
         static async Task Main(string[] args)
         {   
