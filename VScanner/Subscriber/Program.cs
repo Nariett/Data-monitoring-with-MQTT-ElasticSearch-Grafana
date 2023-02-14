@@ -20,7 +20,7 @@ namespace Subscriber
                               .WithCleanSession()
                               .Build();
             mqttClient.ConnectAsync(options).Wait();
-            string[] topic = { "VEng", "VScan", "VDet","VTim" };
+            string[] topic = { "VEng", "VScan", "VDet"};
             foreach (var topics in topic)
             {
                 mqttClient.SubscribeAsync(topics, MQTTnet.Protocol.MqttQualityOfServiceLevel.AtMostOnce).Wait();
@@ -28,44 +28,25 @@ namespace Subscriber
             mqttClient.UseApplicationMessageReceivedHandler(e =>
             {
                 string info = Encoding.UTF8.GetString(e.ApplicationMessage.Payload);
-                //Console.WriteLine(info);
                 if (e.ApplicationMessage.Topic == "VEng")
                 {
                     Engine engineData = JsonSerializer.Deserialize<Engine>(info);
-                    //Console.SetCursorPosition(0, 0);
                     Console.WriteLine("Двигатель " + engineData.ToString());
                     sendObject(engineData);
-                    //Thread.Sleep(1000);
                 }
                 else if (e.ApplicationMessage.Topic == "VScan")
                 {
                     Sensor sensorData = JsonSerializer.Deserialize<Sensor>(info);
-                    //Console.SetCursorPosition(0, 1);
                     Console.WriteLine("Датчик " + sensorData.ToString());
-                    //sendSensor(sensorData);
                     sendObject(sensorData);
                 }
                 else if (e.ApplicationMessage.Topic == "VDet")
                 {
                     Detector detectorData = JsonSerializer.Deserialize<Detector>(info);
-                    //Console.SetCursorPosition(0, 2);
                     Console.WriteLine("Детектор " + detectorData.ToString());
                     sendObject(detectorData);
-                    //sendDetector(detectorData);
                 }
-                else if (e.ApplicationMessage.Topic == "VTim")
-                {
-                    Timer timerData = JsonSerializer.Deserialize<Timer>(info);
-                    //Console.SetCursorPosition(0, 2);
-                    //Console.WriteLine("Детектор " + detectorData.ToString());
-                    Console.WriteLine("Таймер " + timerData.ToString());
-                    //sendObject(timerData);
-                    //sendDetector(detectorData);
-                }
-
-
                 Thread.Sleep(350);
-                //Console.WriteLine(q);
             });
             Console.ReadLine();
         }
@@ -135,13 +116,13 @@ namespace Subscriber
             if (response.IsValid)
             {
                 Console.ForegroundColor = ConsoleColor.Green; // set color
-                Console.WriteLine("Отправлено");
+                Console.WriteLine($"Данные отправлены");
                 Console.ResetColor();
             }
             else
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Ошибка");
+                Console.WriteLine("Ошибка отправки данных");
                 Console.ResetColor();
             }
         }
@@ -153,11 +134,11 @@ namespace Subscriber
             var response = client.IndexDocument(classEngine);
             if (response.IsValid)
             {
-                Console.WriteLine("ДВ");
+                Console.WriteLine("Данные о двигателе отправлены");
             }
             else
             {
-                Console.WriteLine("ErrorДВ");
+                Console.WriteLine("Ошибка отправки данных о двигателе");
             }
         }
         static void sendSensor(Sensor classSensor)
@@ -168,11 +149,11 @@ namespace Subscriber
             var response = client.IndexDocument(classSensor);
             if (response.IsValid)
             {
-                Console.WriteLine("СЕН");
+                Console.WriteLine("Данные о датчике отправлены");
             }
             else
             {
-                Console.WriteLine("ErrorСЕН");
+                Console.WriteLine("Ошибка отправки данных о датчике");
             }
         }
         static void sendDetector(Detector classDetector)
@@ -183,11 +164,11 @@ namespace Subscriber
             var response = client.IndexDocument(classDetector);
             if (response.IsValid)
             {
-                Console.WriteLine("ДЕТ");
+                Console.WriteLine("Данные о детекторе отправлены");
             }
             else
             {
-                Console.WriteLine("ErrorДЕТ");
+                Console.WriteLine("Ошибка отправки данных о детекторе");
             }
         }
     }

@@ -14,7 +14,6 @@ namespace Publisher
             this.stateSensor = stateSensor;
             this.stateDetector = stateDetector;
             this.date = DateTime.UtcNow;
-
         }
         public void sendData()
         {
@@ -24,15 +23,17 @@ namespace Publisher
             var response = client.IndexDocument(this);
             if (response.IsValid)
             {
+                //Console.WriteLine("Пользователь подключен")
             }
             else
             {
-                Console.WriteLine("Error");
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Ошибка подключения к ElasticSearch");
             }
         }
         public string Show()
         {
-            return $"Положение двигателя: {positionEngine}\nПоложение датчика: {stateSensor}\nПоложение детектора: \nВремя последнего обновления: {date}";
+            return $"Положение двигателя: {positionEngine}\nПоложение датчика: {stateSensor}\nПоложение детектора: {stateDetector} \nВремя последнего обновления: {date}";
         }
     }
 }

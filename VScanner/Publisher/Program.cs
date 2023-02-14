@@ -11,26 +11,16 @@ namespace Publisher
         static public Sensor sensorOne = new Sensor(0);
         static public Detector detectorOne = new Detector(0);
         static public GeneralClass generalClass = new GeneralClass();
-        static public Timer TimeWhile = new Timer(false);
         static public void Main(string[] args)
         {
             int select = 0;
             //int sensorState, item, engneState, scanerState = 0;
-            SendData();/////
+            SendData();
             KeyEvent();
             Stopwatch stopWatch = new Stopwatch();
             stopWatch.Start();
-            int iterationCounter = 0;
             while (select == 0)
             {
-                TimeWhile.tick = !TimeWhile.tick;
-                //Console.WriteLine(TimeWhile.tick);
-                /*iterationCounter++;
-                if (stopWatch.ElapsedMilliseconds >= 1000)
-                {
-                    Console.WriteLine("iteration " + iterationCounter);
-                    break;
-                }*/
                 /*Console.WriteLine($"Основное состояние устройств:\nДвигатель = {engineOne.Position()}\nДатчик = {sensorOne.State()}\nДетектор = {detectorOne.State()}");
                 Console.WriteLine("Выберите устройство:\n1 - Двигатель\n2 - Сенсор\n3 - Детектор\n4 - Сценарии");
                 item = Convert.ToInt32(Console.ReadLine());
@@ -180,16 +170,15 @@ namespace Publisher
                 }
                 else
                 {
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Пользователь не подключен");
                 }
                 engineOne.date = DateTime.UtcNow;
                 sensorOne.date = DateTime.UtcNow;
                 detectorOne.date = DateTime.UtcNow;
-                TimeWhile.date = DateTime.UtcNow;
                 await SendObject(client, engineOne, "VEng");
                 await SendObject(client, sensorOne, "VScan");
                 await SendObject(client, detectorOne, "VDet");
-                await SendObject(client, TimeWhile, "VTim");
                 /*string jsonEngine = JsonSerializer.Serialize(engineOne);
                 var message = new MqttApplicationMessageBuilder()
                      .WithTopic("VEng")
@@ -261,7 +250,7 @@ namespace Publisher
         }
         static public void ShowState()
         {
-            Console.WriteLine($"Положение устрйоств\nПоложение двигателя: {engineOne.position}\nСостояние датчика: {sensorOne.state}\nСостояние детектора: {detectorOne.result}");
+            Console.WriteLine($"Положение устройств\nПоложение двигателя: {engineOne.position}\nСостояние датчика: {sensorOne.state}\nСостояние детектора: {detectorOne.result}");
         }
         static async public void EngineStart()
         {
@@ -290,7 +279,7 @@ namespace Publisher
                     i++;
                     if (i == 4)
                     {
-                        Console.WriteLine("Сенсор обнаружил обьект");
+                        Console.WriteLine("Сенсор обнаружил объект");
                         sensorOne.Start();
                     }
                     else Thread.Sleep(1000);
@@ -344,7 +333,7 @@ namespace Publisher
                 i++;
                 if (i == 4)
                 {
-                    Console.WriteLine("Сенсор обнаружил обьект");
+                    Console.WriteLine("Сенсор обнаружил объект");
                     sensorOne.Start();
                     detectorOne.Start();
                 }
