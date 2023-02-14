@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MjqNJvD9CfZebeKYBhyp8dEUK8mMSwTkT+5eTckJVujNvni5JUGfi004mhOjXHCpMtLYTEjSoOdWCZRmCunpIA==",
+  "dgSpecHash": "L3zvw93xzNCkt+xCKQVUD7QS0balI1uDTUViBq1+hx7tu/TCRNBg0qiFXBdfpBLK20p+BdTfJI/Pk7wDrUcvng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\samsi\\OneDrive\\Рабочий стол\\VScanner\\Subscriber\\Subscriber.csproj",
+  "projectFilePath": "C:\\GitHub\\Data-monitoring-with-MQTT-ElasticSearch-Grafana\\VScanner\\Subscriber\\Subscriber.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\samsi\\.nuget\\packages\\elasticsearch.net\\7.17.5\\elasticsearch.net.7.17.5.nupkg.sha512",
     "C:\\Users\\samsi\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",

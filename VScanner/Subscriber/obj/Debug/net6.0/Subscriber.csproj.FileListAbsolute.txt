@@ -93,3 +93,22 @@ C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Subscriber\obj\Debug\ne
 C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.pdb
 C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.genruntimeconfig.cache
 C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Subscriber\obj\Debug\net6.0\ref\Subscriber.dll
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\VScanner\Subscriber\bin\Debug\net6.0\Subscriber.exe
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\VScanner\Subscriber\bin\Debug\net6.0\Subscriber.deps.json
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\VScanner\Subscriber\bin\Debug\net6.0\Subscriber.runtimeconfig.json
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\VScanner\Subscriber\bin\Debug\net6.0\Subscriber.dll
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\VScanner\Subscriber\bin\Debug\net6.0\Subscriber.pdb
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\VScanner\Subscriber\bin\Debug\net6.0\Elasticsearch.Net.dll
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\VScanner\Subscriber\bin\Debug\net6.0\MQTTnet.dll
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\VScanner\Subscriber\bin\Debug\net6.0\Nest.dll
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.csproj.AssemblyReference.cache
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.AssemblyInfoInputs.cache
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.AssemblyInfo.cs
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.csproj.CoreCompileInputs.cache
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.csproj.CopyComplete
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.dll
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\VScanner\Subscriber\obj\Debug\net6.0\refint\Subscriber.dll
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.pdb
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\VScanner\Subscriber\obj\Debug\net6.0\Subscriber.genruntimeconfig.cache
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\VScanner\Subscriber\obj\Debug\net6.0\ref\Subscriber.dll

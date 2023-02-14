@@ -93,3 +93,22 @@ C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Publisher\obj\Debug\net
 C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Publisher\obj\Debug\net6.0\Publisher.pdb
 C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Publisher\obj\Debug\net6.0\Publisher.genruntimeconfig.cache
 C:\Users\samsi\OneDrive\Рабочий стол\VScanner\Publisher\obj\Debug\net6.0\ref\Publisher.dll
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\VScanner\Publisher\bin\Debug\net6.0\Publisher.exe
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\VScanner\Publisher\bin\Debug\net6.0\Publisher.deps.json
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\VScanner\Publisher\bin\Debug\net6.0\Publisher.runtimeconfig.json
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\VScanner\Publisher\bin\Debug\net6.0\Publisher.dll
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\VScanner\Publisher\bin\Debug\net6.0\Publisher.pdb
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\VScanner\Publisher\bin\Debug\net6.0\Elasticsearch.Net.dll
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\VScanner\Publisher\bin\Debug\net6.0\MQTTnet.dll
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\VScanner\Publisher\bin\Debug\net6.0\Nest.dll
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\VScanner\Publisher\obj\Debug\net6.0\Publisher.csproj.AssemblyReference.cache
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\VScanner\Publisher\obj\Debug\net6.0\Publisher.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\VScanner\Publisher\obj\Debug\net6.0\Publisher.AssemblyInfoInputs.cache
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\VScanner\Publisher\obj\Debug\net6.0\Publisher.AssemblyInfo.cs
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\VScanner\Publisher\obj\Debug\net6.0\Publisher.csproj.CoreCompileInputs.cache
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\VScanner\Publisher\obj\Debug\net6.0\Publisher.csproj.CopyComplete
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\VScanner\Publisher\obj\Debug\net6.0\Publisher.dll
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\VScanner\Publisher\obj\Debug\net6.0\refint\Publisher.dll
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\VScanner\Publisher\obj\Debug\net6.0\Publisher.pdb
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\VScanner\Publisher\obj\Debug\net6.0\Publisher.genruntimeconfig.cache
+C:\GitHub\Data-monitoring-with-MQTT-ElasticSearch-Grafana\VScanner\Publisher\obj\Debug\net6.0\ref\Publisher.dll
