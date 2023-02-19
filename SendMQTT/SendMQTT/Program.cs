@@ -5,9 +5,9 @@ using System.Text.Json;
 
 namespace SendMQTT
 {
-    class Program
+    class Program//send data in mqtt
     {
-        static async Task Main(string[] args)//send mqtt
+        static async Task Main(string[] args)
         {
 
             var mqttFactory = new MqttFactory();

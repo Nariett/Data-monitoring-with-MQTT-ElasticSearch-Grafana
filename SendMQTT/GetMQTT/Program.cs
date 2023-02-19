@@ -4,7 +4,7 @@ using MQTTnet.Client.Options;
 using Nest;
 using System.Text;
 using System.Text.Json;
-namespace GetMQTT
+namespace GetMQTT//receiving data from SendData and sending it to ElasticSearch
 {
     class Program
     {

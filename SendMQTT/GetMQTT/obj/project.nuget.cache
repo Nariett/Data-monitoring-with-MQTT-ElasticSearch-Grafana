@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "jO39pMJvYbyallSerY6sXsuX39ElQyikaqBMAfAHfSg/xSLwJpVm8PFv0HKL6VGuXKm7CvMjFLTvKVSkNMWldw==",
+  "dgSpecHash": "WycMHNaDESsNZia7vBvO7NdJWdtUbyPLQBHJcyK3max0hdZiSbbqxKX9U4Fvt98J55Xb0BIa+GT4k2eFwqMRXg==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\Data-monitoring-with-MQTT-ElasticSearch-Grafana\\SendMQTT\\GetMQTT\\GetMQTT.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Sasha\\.nuget\\packages\\elasticsearch.net\\7.17.5\\elasticsearch.net.7.17.5.nupkg.sha512",
-    "C:\\Users\\Sasha\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",
-    "C:\\Users\\Sasha\\.nuget\\packages\\mqttnet\\3.1.0\\mqttnet.3.1.0.nupkg.sha512",
-    "C:\\Users\\Sasha\\.nuget\\packages\\nest\\7.17.5\\nest.7.17.5.nupkg.sha512",
-    "C:\\Users\\Sasha\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
-    "C:\\Users\\Sasha\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512"
+    "C:\\Users\\samsi\\.nuget\\packages\\elasticsearch.net\\7.17.5\\elasticsearch.net.7.17.5.nupkg.sha512",
+    "C:\\Users\\samsi\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",
+    "C:\\Users\\samsi\\.nuget\\packages\\mqttnet\\3.1.0\\mqttnet.3.1.0.nupkg.sha512",
+    "C:\\Users\\samsi\\.nuget\\packages\\nest\\7.17.5\\nest.7.17.5.nupkg.sha512",
+    "C:\\Users\\samsi\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\samsi\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }
