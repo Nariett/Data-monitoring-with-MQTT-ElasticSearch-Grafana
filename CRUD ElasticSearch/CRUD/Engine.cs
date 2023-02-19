@@ -34,7 +34,7 @@
         }
         public override string ToString()
         {
-            return $"Положение {this.position} Дата {this.date}";
+            return $"Положение: {this.position} Дата: {this.date}";
         }
     }
 }
