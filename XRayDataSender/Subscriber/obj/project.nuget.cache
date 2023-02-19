@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "8ibriCMDM9XewrSB5RBkTNRei0oAzQjG41CjAi28DbNheH5BENUxqDtiz2zmz8QsjPVJRCKCmjnMgMV5L33Seg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\samsi\\OneDrive\\Рабочий стол\\XRayDataSender\\Subscriber\\Subscriber.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\samsi\\.nuget\\packages\\elasticsearch.net\\7.17.5\\elasticsearch.net.7.17.5.nupkg.sha512",
+    "C:\\Users\\samsi\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",
+    "C:\\Users\\samsi\\.nuget\\packages\\mqttnet\\3.1.0\\mqttnet.3.1.0.nupkg.sha512",
+    "C:\\Users\\samsi\\.nuget\\packages\\nest\\7.17.5\\nest.7.17.5.nupkg.sha512",
+    "C:\\Users\\samsi\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\samsi\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
