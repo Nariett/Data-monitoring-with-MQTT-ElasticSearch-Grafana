@@ -52,63 +52,6 @@ namespace Subscriber
         }
         static void sendObject(object classObject)
         {
-            /*ConnectionSettings setting;
-            Type type = classObject.GetType();
-            if (type == typeof(Engine))
-            {
-                setting = new ConnectionSettings(new Uri("http://localhost:9200/"))
-                                                    .DefaultIndex("engine");
-                Engine x = classObject as Engine;
-                //x.date = DateTime.UtcNow;
-                Console.WriteLine("Двигатель" + x.GetType()) ;
-                var client = new ElasticClient(setting);
-                var response = client.IndexDocument(x);
-                if (response.IsValid)
-                {
-                    Console.WriteLine("Отправлено");
-                }
-                else
-                {
-                    Console.WriteLine("Error");
-                }
-
-            }
-            else if (type == typeof(Sensor))
-            {
-                setting = new ConnectionSettings(new Uri("http://localhost:9200/"))
-                                                    .DefaultIndex("sensor");
-                Sensor x = classObject as Sensor;
-                //x.date = DateTime.UtcNow;
-                Console.WriteLine("Датчик");
-                var client = new ElasticClient(setting);
-                var response = client.IndexDocument(x);
-                if (response.IsValid)
-                {
-                    Console.WriteLine("Отправлено");
-                }
-                else
-                {
-                    Console.WriteLine("Error");
-                }
-            }
-            else if (type == typeof(Detector))
-            {
-                setting = new ConnectionSettings(new Uri("http://localhost:9200/"))
-                                                    .DefaultIndex("detector");
-                Console.WriteLine("Детектор");
-                Detector x = classObject as Detector;
-                //x.date = DateTime.UtcNow;
-                var client = new ElasticClient(setting);
-                var response = client.IndexDocument(x);
-                if (response.IsValid)
-                {
-                    Console.WriteLine("Отправлено");
-                }
-                else
-                {
-                    Console.WriteLine("Error");
-                }
-            }*/
             var setting = new ConnectionSettings(new Uri("http://localhost:9200/"))
                                                     .DefaultIndex("alldata");///select on test
             var client = new ElasticClient(setting);
