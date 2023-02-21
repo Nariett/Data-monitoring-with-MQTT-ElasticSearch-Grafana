@@ -1,4 +1,4 @@
-﻿using MQTTnet;
+﻿using MQTTnet;//3.1.0
 using MQTTnet.Client;
 using MQTTnet.Client.Options;
 using Nest;
@@ -17,7 +17,7 @@ namespace Subsriber
                               .WithCleanSession()
                               .Build();
             mqttClient.ConnectAsync(options).Wait();
-            string[] topic = { "VEng", "VScan", "VDet" };
+            string[] topic = { "VEng", "VScan", "VDet" };//topics that accept data
             foreach (var topics in topic)
             {
                 mqttClient.SubscribeAsync(topics, MQTTnet.Protocol.MqttQualityOfServiceLevel.AtMostOnce).Wait();
@@ -25,11 +25,11 @@ namespace Subsriber
             mqttClient.UseApplicationMessageReceivedHandler(e =>
             {
                 string info = Encoding.UTF8.GetString(e.ApplicationMessage.Payload);
-                if (e.ApplicationMessage.Topic == "VEng")
+                if (e.ApplicationMessage.Topic == "VEng")//get topic name
                 {
                     Engine engineData = JsonSerializer.Deserialize<Engine>(info);
                     Console.WriteLine("Двигатель " + engineData.ToString());
-                    sendObject(engineData);
+                    sendObject(engineData);//Sending data to elasticSearch
                 }
                 else if (e.ApplicationMessage.Topic == "VScan")
                 {
@@ -47,10 +47,10 @@ namespace Subsriber
             });
             Console.ReadLine();
         }
-        static void sendObject(object classObject)
+        static void sendObject(object classObject)//Sending data to elasticSearch
         {
             var setting = new ConnectionSettings(new Uri("http://localhost:9200/"))
-                                                    .DefaultIndex("all");///select on test
+                                                    .DefaultIndex("all");///send in index "all" (index must be created manually. Creating an Index on a CRUD ElasticSearc Repository)
             var client = new ElasticClient(setting);
             var response = client.IndexDocument(classObject);
             if (response.IsValid)

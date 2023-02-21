@@ -1,6 +1,6 @@
 ﻿using System.IO.Ports;
 using System.Text.Json;
-using MQTTnet;
+using MQTTnet;//3.1.0
 using MQTTnet.Client;
 using MQTTnet.Client.Options;
 
@@ -140,7 +140,7 @@ namespace Publisher
             Thread.Sleep(1000);
             engineLeft();
         }
-        static async public void SendData()
+        static async public void SendData()//send data function to mosquitto
         {
             while (true)
             {
@@ -159,22 +159,22 @@ namespace Publisher
                 {
                     Console.WriteLine("Пользователь не подключен");
                 }
-                engineOne.date = DateTime.UtcNow;
+                engineOne.date = DateTime.UtcNow;//update date
                 sensorOne.date = DateTime.UtcNow;
                 detectorOne.date = DateTime.UtcNow;
-                await SendObject(client, engineOne, "VEng");
+                await SendObject(client, engineOne, "VEng");//send data
                 await SendObject(client, sensorOne, "VScan");
                 await SendObject(client, detectorOne, "VDet");
-                await client.DisconnectAsync();
+                await client.DisconnectAsync();//must be disconnected from the client
                 Thread.Sleep(200);
             }
         }
-        private static async Task SendObject(IMqttClient client, object obj, string topic)//send object in mqtt
+        private static async Task SendObject(IMqttClient client, object obj, string topic)//function to send object to mosquitto
         {
             string json = JsonSerializer.Serialize(obj);
             var message = new MqttApplicationMessageBuilder()
                  .WithTopic(topic)
-                 .WithPayload(json)
+                 .WithPayload(json)//file that we send to mosqutto
                  .WithAtLeastOnceQoS()
                  .Build();
             await client.PublishAsync(message, CancellationToken.None);

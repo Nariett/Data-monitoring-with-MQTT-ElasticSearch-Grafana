@@ -293,11 +293,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\samsi\\OneDrive\\Рабочий стол\\XRayDataSender\\Subscriber\\Subscriber.csproj",
+      "projectUniqueName": "C:\\GitHub\\Data-monitoring-with-MQTT-ElasticSearch-Grafana\\XRayDataSender\\Subscriber\\Subscriber.csproj",
       "projectName": "Subscriber",
-      "projectPath": "C:\\Users\\samsi\\OneDrive\\Рабочий стол\\XRayDataSender\\Subscriber\\Subscriber.csproj",
+      "projectPath": "C:\\GitHub\\Data-monitoring-with-MQTT-ElasticSearch-Grafana\\XRayDataSender\\Subscriber\\Subscriber.csproj",
       "packagesPath": "C:\\Users\\samsi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\samsi\\OneDrive\\Рабочий стол\\XRayDataSender\\Subscriber\\obj\\",
+      "outputPath": "C:\\GitHub\\Data-monitoring-with-MQTT-ElasticSearch-Grafana\\XRayDataSender\\Subscriber\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
