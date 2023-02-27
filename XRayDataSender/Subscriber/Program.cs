@@ -43,7 +43,7 @@ namespace Subsriber
                     Console.WriteLine("Детектор " + detectorData.ToString());
                     sendObject(detectorData);
                 }
-                Thread.Sleep(350);
+                Thread.Sleep(50);//350
             });
             Console.ReadLine();
         }

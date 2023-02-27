@@ -1,8 +1,8 @@
-﻿using System.IO.Ports;
-using System.Text.Json;
-using MQTTnet;//3.1.0
+﻿using MQTTnet;//3.1.0
 using MQTTnet.Client;
 using MQTTnet.Client.Options;
+using System.IO.Ports;
+using System.Text.Json;
 
 namespace Publisher
 {
@@ -28,7 +28,6 @@ namespace Publisher
             TimerCallback tm = new TimerCallback(sendStatus);
             Timer timer = new Timer(tm, num, 0, 50);
             _serialPort.DataReceived += new SerialDataReceivedEventHandler(DataReceivedHandler);
-
             Console.ReadLine();
         }
         public static void sendStatus(object obj)
@@ -47,38 +46,62 @@ namespace Publisher
             string indata = sp.ReadExisting();
             byte[] arr = System.Text.Encoding.UTF8.GetBytes(indata); //3 кнопки и сенсор 4 датчик 5 
             string data = BitConverter.ToString(arr);
-            //Console.SetCursorPosition(0, 1);
-            //Console.WriteLine($"Принял сообщение: {data} {DateTime.Now}");
-            if (arr.Length == 8)
+            Console.SetCursorPosition(0, 1);
+            //Console.WriteLine($"Принял сообщение: {data}");
+            if (arr.Length == 8 && arr[2] == 11)
             {
-                //Console.WriteLine(stopPosition);
-                if (arr[4] == 2 && stopPosition == true)
-                {
-                    lampOff();
-                    stopPosition = false;
-                }
-                if (arr[4] == 1 || arr[4] == 2)
-                {
-                    sensorOne.Start();
-                }
-                else { sensorOne.Stop(); }
-                if (arr[3] == 32) engineLeft();
-                if (arr[3] == 3) engineOne.Left();
-                else if (arr[3] == 7) engineOne.Right();
-                else if (arr[3] == 0) engineOne.Stop();
-                else if (arr[3] == 16 || arr[3] == 23 || arr[3] == 19) detectorOne.Start();
-
-                if (arr[3] == 0 || arr[3] == 3 || arr[3] == 7) detectorOne.Stop();
-                else if (arr[3] == 64)///////не останвливается 
+                Console.WriteLine($"Принял сообщение: {BitConverter.ToString(arr)}");
+                if (arr[3] == 64)//movement to the right
                 {
                     lampOn();
                     engineRight();
                 }
-                if (arr[3] == 23 && stopPosition == false) stopCommand();
+                if (arr[3] == 32)//movement to the left
+                {
+                    lampOff();
+                    engineLeft();
+                }
+                if (arr[3] == 23)//stop
+                {
+                    stopPosition = false;
+                    stopCommand();
+                }
+                if (arr[4] == 1)//if the object drove up to the edge of the platform
+                {
+                    lampOff();
+                }
+                if (arr[4] == 2 && stopPosition == false)
+                {
+                    lampOff();
+                    stopPosition = true;
+                }
+                if (arr[3] == 16 || arr[3] == 23 || arr[3] == 19)//detector start
+                {
+                    detectorOne.Start();
+                }
+                if (arr[3] == 0 || arr[3] == 3 || arr[3] == 7)//detector stop
+                {
+                    detectorOne.Stop();
+                }
+                if (arr[4] == 0)//set null data
+                {
+                    sensorOne.value = 0;
+                }
+                else if (arr[4] == 1)//set data from left sensor
+                {
+                    sensorOne.value = 1;
+                }
+                else if (arr[4] == 2)//set data from right sensor
+                {
+                    sensorOne.value = 2;
+                }
+                if (arr[4] == 1 || arr[4] == 2)//engine stop
+                {
+                    engineOne.Stop();
+                }
+                updateTime();
             }
-            updateTime();
         }
-
 
         static byte[] Combine(byte[] first, byte[] second)
         {
@@ -112,24 +135,28 @@ namespace Publisher
             byte[] on = new byte[] { 0xDC, 0x03, 0x03, 0x01 };
             byte[] message = Combine(on, GetCRC(on));
             _serialPort.Write(message, 0, message.Length);
+            Thread.Sleep(10);
         }
         static void lampOff()
         {
             byte[] off = new byte[] { 0xDC, 0x03, 0x04, 0x01 };
             byte[] message = Combine(off, GetCRC(off));
             _serialPort.Write(message, 0, message.Length);
+            Thread.Sleep(10);
         }
         static void engineRight()
         {
             byte[] right = new byte[] { 0xDC, 0x03, 0x02, 0x01 };
             byte[] message = Combine(right, GetCRC(right));
             _serialPort.Write(message, 0, message.Length);
+            engineOne.Right();
         }
         static void engineLeft()
         {
             byte[] left = new byte[] { 0xDC, 0x03, 0x01, 0x01 };//AA max
             byte[] message = Combine(left, GetCRC(left));
             _serialPort.Write(message, 0, message.Length);
+            engineOne.Left();
         }
         static void stopCommand()
         {
@@ -166,19 +193,19 @@ namespace Publisher
                 await SendObject(client, sensorOne, "VScan");
                 await SendObject(client, detectorOne, "VDet");
                 await client.DisconnectAsync();//must be disconnected from the client
-                Thread.Sleep(200);
+                Thread.Sleep(100);
             }
         }
         private static async Task SendObject(IMqttClient client, object obj, string topic)//function to send object to mosquitto
         {
             string json = JsonSerializer.Serialize(obj);
             var message = new MqttApplicationMessageBuilder()
-                 .WithTopic(topic)
+                 .WithTopic(topic)//name topic
                  .WithPayload(json)//file that we send to mosqutto
                  .WithAtLeastOnceQoS()
                  .Build();
             await client.PublishAsync(message, CancellationToken.None);
-            Thread.Sleep(1000);
+            //Thread.Sleep(100);
         }
     }
 }
