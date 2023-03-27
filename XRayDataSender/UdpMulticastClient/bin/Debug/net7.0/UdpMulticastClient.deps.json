@@ -1,0 +1,155 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "UdpMulticastClient/1.0.0": {
+        "dependencies": {
+          "NetCoreServer": "7.0.0",
+          "Syncfusion.Presentation.Net.Core": "20.4.0.54",
+          "System.Drawing.Common": "7.0.0"
+        },
+        "runtime": {
+          "UdpMulticastClient.dll": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/7.0.0": {
+        "runtime": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Syncfusion.Compression.Net.Core/20.4.0.54": {
+        "runtime": {
+          "lib/net7.0/Syncfusion.Compression.Portable.dll": {
+            "assemblyVersion": "20.4700.0.54",
+            "fileVersion": "20.4700.0.54"
+          }
+        }
+      },
+      "Syncfusion.Licensing/20.4.0.54": {
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "20.4.0.54",
+            "fileVersion": "20.4.0.54"
+          }
+        }
+      },
+      "Syncfusion.OfficeChart.Net.Core/20.4.0.54": {
+        "dependencies": {
+          "Syncfusion.Compression.Net.Core": "20.4.0.54"
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.OfficeChart.Portable.dll": {
+            "assemblyVersion": "20.4700.0.54",
+            "fileVersion": "20.4700.0.54"
+          }
+        }
+      },
+      "Syncfusion.Presentation.Net.Core/20.4.0.54": {
+        "dependencies": {
+          "Syncfusion.Compression.Net.Core": "20.4.0.54",
+          "Syncfusion.Licensing": "20.4.0.54",
+          "Syncfusion.OfficeChart.Net.Core": "20.4.0.54"
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Presentation.Portable.dll": {
+            "assemblyVersion": "20.4700.0.54",
+            "fileVersion": "20.4700.0.54"
+          }
+        }
+      },
+      "System.Drawing.Common/7.0.0": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "7.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net7.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "NetCoreServer/7.0.0": {
+        "runtime": {
+          "NetCoreServer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UdpMulticastClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Win32.SystemEvents/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2nXPrhdAyAzir0gLl8Yy8S5Mnm/uBSQQA7jEsILOS1MTyS7DbmV1NgViMtvV1sfCD1ebITpNwb1NIinKeJgUVQ==",
+      "path": "microsoft.win32.systemevents/7.0.0",
+      "hashPath": "microsoft.win32.systemevents.7.0.0.nupkg.sha512"
+    },
+    "Syncfusion.Compression.Net.Core/20.4.0.54": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ITg5tnbyXaLbyCQWOlXqsU3SSnRRoQyFvo9z4Ygl+SJr2WmRXjynKAo32LsoJ5EX32/MqEL5Z2WWcIgT82LuOw==",
+      "path": "syncfusion.compression.net.core/20.4.0.54",
+      "hashPath": "syncfusion.compression.net.core.20.4.0.54.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/20.4.0.54": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-16K5slTnWZ2UTTG2PWnw8WUS09EW/+KZy3kFVVAmkx9o6/Ik7xklD58BopZ9f3v93J4R3Ki+o4yCDLekIOx7cw==",
+      "path": "syncfusion.licensing/20.4.0.54",
+      "hashPath": "syncfusion.licensing.20.4.0.54.nupkg.sha512"
+    },
+    "Syncfusion.OfficeChart.Net.Core/20.4.0.54": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Dtd/VHn+bHG14K379wyYl0h6GYQf0INtduqQky5LCzX70z7H1c2I/0j3ACQJsGSGpk5i0ll32C7Ln69p7nMYRg==",
+      "path": "syncfusion.officechart.net.core/20.4.0.54",
+      "hashPath": "syncfusion.officechart.net.core.20.4.0.54.nupkg.sha512"
+    },
+    "Syncfusion.Presentation.Net.Core/20.4.0.54": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qe0fkSekxXWMgixO/i7MACmo51ltVBFlC5oyeqMmMi4MVQAUJBrhiL2BbmPUqMAJktXdXfYzvXLt5mLoOj7r9A==",
+      "path": "syncfusion.presentation.net.core/20.4.0.54",
+      "hashPath": "syncfusion.presentation.net.core.20.4.0.54.nupkg.sha512"
+    },
+    "System.Drawing.Common/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KIX+oBU38pxkKPxvLcLfIkOV5Ien8ReN78wro7OF5/erwcmortzeFx+iBswlh2Vz6gVne0khocQudGwaO1Ey6A==",
+      "path": "system.drawing.common/7.0.0",
+      "hashPath": "system.drawing.common.7.0.0.nupkg.sha512"
+    },
+    "NetCoreServer/7.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

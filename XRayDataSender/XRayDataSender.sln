@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Publisher", "Publisher\Publisher.csproj", "{9FE444C7-1B18-41A9-B295-510E835FB40F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Publisher", "Publisher\Publisher.csproj", "{9FE444C7-1B18-41A9-B295-510E835FB40F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subscriber", "Subscriber\Subscriber.csproj", "{BD26B0A8-9437-4449-84BE-1E32F2063F65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subscriber", "Subscriber\Subscriber.csproj", "{BD26B0A8-9437-4449-84BE-1E32F2063F65}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreServer", "NetCoreServer\NetCoreServer.csproj", "{2BBEAA63-8E3E-4B21-A98E-080AB6340959}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UdpEchoClient", "UdpEchoClient\UdpEchoClient.csproj", "{BCC03A64-3CC3-4A28-96EA-167206C03C0C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UdpMulticastClient", "UdpMulticastClient\UdpMulticastClient.csproj", "{3EE43A1A-76E0-4239-9531-95BCD9F04F62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{BD26B0A8-9437-4449-84BE-1E32F2063F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD26B0A8-9437-4449-84BE-1E32F2063F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD26B0A8-9437-4449-84BE-1E32F2063F65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BBEAA63-8E3E-4B21-A98E-080AB6340959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BBEAA63-8E3E-4B21-A98E-080AB6340959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BBEAA63-8E3E-4B21-A98E-080AB6340959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BBEAA63-8E3E-4B21-A98E-080AB6340959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCC03A64-3CC3-4A28-96EA-167206C03C0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC03A64-3CC3-4A28-96EA-167206C03C0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC03A64-3CC3-4A28-96EA-167206C03C0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC03A64-3CC3-4A28-96EA-167206C03C0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EE43A1A-76E0-4239-9531-95BCD9F04F62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EE43A1A-76E0-4239-9531-95BCD9F04F62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EE43A1A-76E0-4239-9531-95BCD9F04F62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EE43A1A-76E0-4239-9531-95BCD9F04F62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

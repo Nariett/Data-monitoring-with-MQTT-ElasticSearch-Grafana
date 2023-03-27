@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "UdpEchoClient/1.0.0": {
+        "dependencies": {
+          "NetCoreServer": "7.0.0"
+        },
+        "runtime": {
+          "UdpEchoClient.dll": {}
+        }
+      },
+      "NetCoreServer/7.0.0": {
+        "runtime": {
+          "NetCoreServer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UdpEchoClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NetCoreServer/7.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
