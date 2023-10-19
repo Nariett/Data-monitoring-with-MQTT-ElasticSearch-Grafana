@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "6tjJvxXSkyGTi5BRcfUbTKBR95vZTBMHnxm/3dn/YwPVqSclQXZxbrcLKrAJ3+otUHZVppAxUNCIr9/YmHRwog==",
+  "dgSpecHash": "dQKW/UpnWshIB4gbimTfxzjHDIeoC3Dy8iIriaXHv2jLqBGz/quEpQQeJ8nglVKGhbz26DDp18+UjpV6CGEa4w==",
   "success": false,
-  "projectFilePath": "C:\\Users\\samoylov\\Desktop\\Data-monitoring-with-MQTT-ElasticSearch-Grafana-main\\XRayDataSender\\UdpEchoClient\\UdpEchoClient.csproj",
+  "projectFilePath": "C:\\GitHub\\Data-monitoring-with-MQTT-ElasticSearch-Grafana\\XRayDataSender\\UdpEchoClient\\UdpEchoClient.csproj",
   "expectedPackageFiles": [],
   "logs": [
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Не удалось найти проект \"C:\\Users\\samoylov\\Desktop\\Data-monitoring-with-MQTT-ElasticSearch-Grafana-main\\source\\NetCoreServer\\NetCoreServer.csproj\". Убедитесь, что ссылка на проект действительна и файл проекта существует.",
-      "libraryId": "C:\\Users\\samoylov\\Desktop\\Data-monitoring-with-MQTT-ElasticSearch-Grafana-main\\source\\NetCoreServer\\NetCoreServer.csproj",
+      "message": "Не удалось найти проект \"C:\\GitHub\\Data-monitoring-with-MQTT-ElasticSearch-Grafana\\source\\NetCoreServer\\NetCoreServer.csproj\". Убедитесь, что ссылка на проект действительна и файл проекта существует.",
+      "libraryId": "C:\\GitHub\\Data-monitoring-with-MQTT-ElasticSearch-Grafana\\source\\NetCoreServer\\NetCoreServer.csproj",
       "targetGraphs": [
         "net7.0"
       ]

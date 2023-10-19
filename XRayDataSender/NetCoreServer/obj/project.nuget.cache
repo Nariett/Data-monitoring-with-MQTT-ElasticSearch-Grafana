@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/5E4Mmbqzm7oEihUvycrp+g5nh8bwdpygINuHrPY0j0VZHu81F0jd24B4uUhghq2J+bUflgWU/6BmPBgd4LNZQ==",
+  "dgSpecHash": "OP2x5qp4De6vOd6RkPbXiURkYhYKfVGmf6Q9+bAGsi5B0Cl/IZhuJhOQVEbOi57xQEMQ4DxqUn+2t/F1mbjrow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\samoylov\\Desktop\\Data-monitoring-with-MQTT-ElasticSearch-Grafana-main\\XRayDataSender\\NetCoreServer\\NetCoreServer.csproj",
+  "projectFilePath": "C:\\GitHub\\Data-monitoring-with-MQTT-ElasticSearch-Grafana\\XRayDataSender\\NetCoreServer\\NetCoreServer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

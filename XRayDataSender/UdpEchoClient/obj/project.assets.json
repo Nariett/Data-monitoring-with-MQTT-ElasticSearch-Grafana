@@ -23,24 +23,29 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "C:\\Users\\samoylov\\Desktop\\Data-monitoring-with-MQTT-ElasticSearch-Grafana-main\\source\\NetCoreServer\\NetCoreServer.csproj",
+      "C:\\GitHub\\Data-monitoring-with-MQTT-ElasticSearch-Grafana\\source\\NetCoreServer\\NetCoreServer.csproj",
       "NetCoreServer >= 7.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\samoylov\\.nuget\\packages\\": {}
+    "C:\\Users\\samsi\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\samoylov\\Desktop\\Data-monitoring-with-MQTT-ElasticSearch-Grafana-main\\XRayDataSender\\UdpEchoClient\\UdpEchoClient.csproj",
+      "projectUniqueName": "C:\\GitHub\\Data-monitoring-with-MQTT-ElasticSearch-Grafana\\XRayDataSender\\UdpEchoClient\\UdpEchoClient.csproj",
       "projectName": "UdpEchoClient",
-      "projectPath": "C:\\Users\\samoylov\\Desktop\\Data-monitoring-with-MQTT-ElasticSearch-Grafana-main\\XRayDataSender\\UdpEchoClient\\UdpEchoClient.csproj",
-      "packagesPath": "C:\\Users\\samoylov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\samoylov\\Desktop\\Data-monitoring-with-MQTT-ElasticSearch-Grafana-main\\XRayDataSender\\UdpEchoClient\\obj\\",
+      "projectPath": "C:\\GitHub\\Data-monitoring-with-MQTT-ElasticSearch-Grafana\\XRayDataSender\\UdpEchoClient\\UdpEchoClient.csproj",
+      "packagesPath": "C:\\Users\\samsi\\.nuget\\packages\\",
+      "outputPath": "C:\\GitHub\\Data-monitoring-with-MQTT-ElasticSearch-Grafana\\XRayDataSender\\UdpEchoClient\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\samoylov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\samsi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -54,11 +59,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\samoylov\\Desktop\\Data-monitoring-with-MQTT-ElasticSearch-Grafana-main\\source\\NetCoreServer\\NetCoreServer.csproj": {
-              "projectPath": "C:\\Users\\samoylov\\Desktop\\Data-monitoring-with-MQTT-ElasticSearch-Grafana-main\\source\\NetCoreServer\\NetCoreServer.csproj"
+            "C:\\GitHub\\Data-monitoring-with-MQTT-ElasticSearch-Grafana\\source\\NetCoreServer\\NetCoreServer.csproj": {
+              "projectPath": "C:\\GitHub\\Data-monitoring-with-MQTT-ElasticSearch-Grafana\\source\\NetCoreServer\\NetCoreServer.csproj"
             },
-            "C:\\Users\\samoylov\\Desktop\\Data-monitoring-with-MQTT-ElasticSearch-Grafana-main\\XRayDataSender\\NetCoreServer\\NetCoreServer.csproj": {
-              "projectPath": "C:\\Users\\samoylov\\Desktop\\Data-monitoring-with-MQTT-ElasticSearch-Grafana-main\\XRayDataSender\\NetCoreServer\\NetCoreServer.csproj"
+            "C:\\GitHub\\Data-monitoring-with-MQTT-ElasticSearch-Grafana\\XRayDataSender\\NetCoreServer\\NetCoreServer.csproj": {
+              "projectPath": "C:\\GitHub\\Data-monitoring-with-MQTT-ElasticSearch-Grafana\\XRayDataSender\\NetCoreServer\\NetCoreServer.csproj"
             }
           }
         }
@@ -83,12 +88,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "frameworkReferences": {
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -96,8 +96,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Не удалось найти проект \"C:\\Users\\samoylov\\Desktop\\Data-monitoring-with-MQTT-ElasticSearch-Grafana-main\\source\\NetCoreServer\\NetCoreServer.csproj\". Убедитесь, что ссылка на проект действительна и файл проекта существует.",
-      "libraryId": "C:\\Users\\samoylov\\Desktop\\Data-monitoring-with-MQTT-ElasticSearch-Grafana-main\\source\\NetCoreServer\\NetCoreServer.csproj",
+      "message": "Не удалось найти проект \"C:\\GitHub\\Data-monitoring-with-MQTT-ElasticSearch-Grafana\\source\\NetCoreServer\\NetCoreServer.csproj\". Убедитесь, что ссылка на проект действительна и файл проекта существует.",
+      "libraryId": "C:\\GitHub\\Data-monitoring-with-MQTT-ElasticSearch-Grafana\\source\\NetCoreServer\\NetCoreServer.csproj",
       "targetGraphs": [
         "net7.0"
       ]

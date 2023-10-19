@@ -1,22 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "Fk79ayNdFQEHdthfKrK51O/rXkrMPyrnEXgz0R/y8DVOEUSoKr5sAUf/4kAgZrU+9ezafZ0NbGHN2MQ8jzuuIw==",
+  "dgSpecHash": "TkJatx1i3eUSpRA6uRSlgaDcV9e3n+nJYfgL3OFzIP3GJt9uIUh9uql1YKFKsWjEos36i2tvbVwrnt5XNry38Q==",
   "success": false,
-  "projectFilePath": "C:\\Users\\samoylov\\Desktop\\Data-monitoring-with-MQTT-ElasticSearch-Grafana-main\\XRayDataSender\\UdpMulticastClient\\UdpMulticastClient.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\samoylov\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
-    "C:\\Users\\samoylov\\.nuget\\packages\\syncfusion.compression.net.core\\20.4.0.54\\syncfusion.compression.net.core.20.4.0.54.nupkg.sha512",
-    "C:\\Users\\samoylov\\.nuget\\packages\\syncfusion.licensing\\20.4.0.54\\syncfusion.licensing.20.4.0.54.nupkg.sha512",
-    "C:\\Users\\samoylov\\.nuget\\packages\\syncfusion.officechart.net.core\\20.4.0.54\\syncfusion.officechart.net.core.20.4.0.54.nupkg.sha512",
-    "C:\\Users\\samoylov\\.nuget\\packages\\syncfusion.presentation.net.core\\20.4.0.54\\syncfusion.presentation.net.core.20.4.0.54.nupkg.sha512",
-    "C:\\Users\\samoylov\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\GitHub\\Data-monitoring-with-MQTT-ElasticSearch-Grafana\\XRayDataSender\\UdpMulticastClient\\UdpMulticastClient.csproj",
+  "expectedPackageFiles": [],
   "logs": [
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Не удалось найти проект \"C:\\Users\\samoylov\\Desktop\\Data-monitoring-with-MQTT-ElasticSearch-Grafana-main\\source\\NetCoreServer\\NetCoreServer.csproj\". Убедитесь, что ссылка на проект действительна и файл проекта существует.",
-      "libraryId": "C:\\Users\\samoylov\\Desktop\\Data-monitoring-with-MQTT-ElasticSearch-Grafana-main\\source\\NetCoreServer\\NetCoreServer.csproj",
+      "message": "Не удалось найти проект \"C:\\GitHub\\Data-monitoring-with-MQTT-ElasticSearch-Grafana\\source\\NetCoreServer\\NetCoreServer.csproj\". Убедитесь, что ссылка на проект действительна и файл проекта существует.",
+      "libraryId": "C:\\GitHub\\Data-monitoring-with-MQTT-ElasticSearch-Grafana\\source\\NetCoreServer\\NetCoreServer.csproj",
       "targetGraphs": [
         "net7.0"
       ]
